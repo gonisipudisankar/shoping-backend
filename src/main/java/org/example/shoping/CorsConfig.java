@@ -14,7 +14,7 @@ public class CorsConfig {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
                                 "http://localhost:3000",
-                                "https://shoping-frontend.onrender.com",
+                                "https://shoping-frontend-r90h.onrender.com",
                                 "https://shoping-frontend.netlify.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
